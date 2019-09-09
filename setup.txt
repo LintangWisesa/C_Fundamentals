@@ -1,0 +1,11 @@
+
+On Windows:
+
+1. Install MinGW
+
+2. Go to Environment Variables - System Variables then
+   set/insert on Path => C:\MinGW\bin
+
+3. Run a C program on terminal:
+    $ gcc fileName.c -o aliasName   => create an .exe file
+    $ ./aliasName                   => execute .exe
